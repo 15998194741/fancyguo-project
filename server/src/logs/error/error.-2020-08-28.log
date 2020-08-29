@@ -1,0 +1,1112 @@
+[2020-08-28T10:38:31.866] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetJSHLsksnf&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetJSHLsksnf","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598582311866
+err name: ObjectParameterError
+err message: Parameter "filter" to findOne() must be an object, got NuetJSHLsksnf
+err stack: ObjectParameterError: Parameter "filter" to findOne() must be an object, got NuetJSHLsksnf
+    at model.Query.Query.findOne (H:\project\server\node_modules\mongoose\lib\query.js:2217:16)
+    at Function.findOne (H:\project\server\node_modules\mongoose\lib\model.js:2157:13)
+    at res (H:\project\server\src\config\/mongoDBconfig.js:80:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee4$ (H:\project\server\src\config\/mongoDBconfig.js:79:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:40:42.173] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586042172
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:268:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:40:42.624] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586042624
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:268:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:40:43.114] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586043114
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:268:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:40:43.329] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586043329
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:268:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:40:43.759] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586043759
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:268:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:40:44.013] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586044012
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:268:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:53:53.190] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586833189
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:269:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:54:04.625] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586844625
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:269:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:54:05.502] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586845502
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:269:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:54:24.485] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKKEY&value=NuetWnd&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKKEY","value":"NuetWnd","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586864485
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at _callee13$ (H:\project\server\src\app\service\/cdk.js:270:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:10.676] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586970675
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:17.466] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586977466
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:23.211] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586983211
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:25.777] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586985777
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:26.849] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586986849
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:28.687] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586988687
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:31.924] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586991924
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:33.249] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586993248
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:35.009] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586995009
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:36.083] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586996083
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:37.551] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586997551
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T11:56:39.910] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=9AA0&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"9AA0","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598586999910
+err name: SequelizeDatabaseError
+err message: syntax error at or near "AA0"
+err stack: SequelizeDatabaseError: syntax error at or near "AA0"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T14:21:24.331] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=AeeAAeeA&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"AeeAAeeA","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598595684330
+err name: SequelizeDatabaseError
+err message: column "aeeaaeea" does not exist
+err stack: SequelizeDatabaseError: column "aeeaaeea" does not exist
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:249:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:875:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:879:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:243:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:902:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:231:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:774:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-28T14:22:44.666] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=AeeAAeeA&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"AeeAAeeA","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598595764665
+err name: SequelizeDatabaseError
+err message: column "nan" does not exist
+err stack: SequelizeDatabaseError: column "nan" does not exist
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee12$ (H:\project\server\src\app\service\/cdk.js:244:34)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at _byCdkId3 (H:\project\server\src\app\service\cdk.js:874:35)
+    at byCdkId (H:\project\server\src\app\service\cdk.js:878:35)
+    at _callee14$ (H:\project\server\src\app\service\/cdk.js:238:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.findByKey (H:\project\server\src\app\service\cdk.js:901:27)
+    at CDKService._callee11$ (H:\project\server\src\app\service\/cdk.js:230:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:773:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+

@@ -1,0 +1,610 @@
+[2020-08-27T10:19:23.536] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598494763535
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-27T14:46:00.193] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkFind?tablename=9AAH
+request client ip:  ::1
+request query:  {"tablename":"9AAH"}
+response time: 1598510760193
+err name: ReferenceError
+err message: generate is not defined
+err stack: ReferenceError: generate is not defined
+    at _callee8$ (H:\project\server\src\app\service\cdk.js:544:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkFind (H:\project\server\src\app\service\cdk.js:596:25)
+    at _callee5$ (H:\project\server\src\app\controllers\/cdk.js:44:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at cdkFind (H:\project\server\src\app\controllers\cdk.js:208:25)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+*************** error log end ***************
+
+[2020-08-27T14:48:27.373] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkFind?tablename=9AAH
+request client ip:  ::ffff:127.0.0.1
+request query:  {"tablename":"9AAH"}
+response time: 1598510907372
+err name: TypeError
+err message: Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.
+err stack: TypeError: Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.
+    at _createForOfIteratorHelper (H:\project\server\src\app\service\cdk.js:53:471)
+    at _callee8$ (H:\project\server\src\app\service\cdk.js:540:30)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkFind (H:\project\server\src\app\service\cdk.js:592:25)
+    at _callee5$ (H:\project\server\src\app\controllers\/cdk.js:44:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at cdkFind (H:\project\server\src\app\controllers\cdk.js:208:25)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-27T14:48:49.147] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkFind?tablename=9AAH
+request client ip:  ::ffff:127.0.0.1
+request query:  {"tablename":"9AAH"}
+response time: 1598510929146
+err name: TypeError
+err message: Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.
+err stack: TypeError: Invalid attempt to iterate non-iterable instance.
+In order to be iterable, non-array objects must have a [Symbol.iterator]() method.
+    at _createForOfIteratorHelper (H:\project\server\src\app\service\cdk.js:53:471)
+    at _callee8$ (H:\project\server\src\app\service\cdk.js:546:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-27T14:49:06.477] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkFind?tablename=9AAH
+request client ip:  ::1
+request query:  {"tablename":"9AAH"}
+response time: 1598510946476
+err name: ReferenceError
+err message: res is not defined
+err stack: ReferenceError: res is not defined
+    at _callee7$ (H:\project\server\src\app\service\/cdk.js:179:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkFind (H:\project\server\src\app\service\cdk.js:578:25)
+    at _callee5$ (H:\project\server\src\app\controllers\/cdk.js:44:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at cdkFind (H:\project\server\src\app\controllers\cdk.js:208:25)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+*************** error log end ***************
+
+[2020-08-27T16:17:31.607] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test?tablename=9AAH
+request client ip:  ::1
+request query:  {"tablename":"9AAH"}
+response time: 1598516251607
+err name: TypeError
+err message: Cannot read property 'toLowerCase' of undefined
+err stack: TypeError: Cannot read property 'toLowerCase' of undefined
+    at pluralize (H:\project\server\node_modules\mongoose-legacy-pluralize\index.js:85:13)
+    at Object.exports.toCollectionName (H:\project\server\node_modules\mongoose\lib\utils.js:44:12)
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:558:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.getConnection (H:\project\server\src\config\mongoDBconfig.js:90:31)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:116:30)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.find (H:\project\server\src\config\mongoDBconfig.js:343:22)
+    at _callee9$ (H:\project\server\src\app\service\/cdk.js:201:24)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:652:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:18:36)
+*************** error log end ***************
+
+[2020-08-27T17:52:42.238] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkCreateSchedule?tablename=9AAH
+request client ip:  ::ffff:127.0.0.1
+request query:  {"tablename":"9AAH"}
+response time: 1598521962237
+err name: TypeError
+err message: Cannot read property 'num' of undefined
+err stack: TypeError: Cannot read property 'num' of undefined
+    at _callee6$ (H:\project\server\src\app\service\/cdk.js:152:9)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-27T17:53:24.024] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkCreateSchedule?tablename=9AAH
+request client ip:  ::1
+request query:  {"tablename":"9AAH"}
+response time: 1598522004023
+err name: TypeError
+err message: Cannot read property 'num' of undefined
+err stack: TypeError: Cannot read property 'num' of undefined
+    at _callee6$ (H:\project\server\src\app\service\/cdk.js:153:9)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-27T17:53:54.404] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkCreateSchedule?tablename=9AAH
+request client ip:  ::1
+request query:  {"tablename":"9AAH"}
+response time: 1598522034404
+err name: TypeError
+err message: Cannot read property 'num' of undefined
+err stack: TypeError: Cannot read property 'num' of undefined
+    at _callee6$ (H:\project\server\src\app\service\/cdk.js:153:9)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-27T17:55:01.926] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cdk/createcdk
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"1","type":"2","cdkkey":"","quantity":100000,"plaform":["1"],"channel":["久游","小米"],"takeEffectTime":"2020-08-26T16:00:00.000Z","failureTime":"2020-08-27T16:00:00.000Z","title":"1","text":"2","annexList":[{"annexName":["特殊道具","9001"],"annexNumber":2,"id":0}]}
+response time: 1598522101925
+err name: SequelizeDatabaseError
+err message: column "undefined" does not exist
+err stack: SequelizeDatabaseError: column "undefined" does not exist
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee$ (H:\project\server\src\app\service\/cdk.js:18:31)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.createcdk (H:\project\server\src\app\service\cdk.js:119:27)
+    at _callee$ (H:\project\server\src\app\controllers\/cdk.js:10:33)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createcdk (H:\project\server\src\app\controllers\cdk.js:76:27)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee$ (H:\project\server\src\app\service\/cdk.js:18:31)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.createcdk (H:\project\server\src\app\service\cdk.js:119:27)
+    at _callee$ (H:\project\server\src\app\controllers\/cdk.js:10:33)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createcdk (H:\project\server\src\app\controllers\cdk.js:76:27)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+*************** error log end ***************
+
+[2020-08-27T17:55:58.935] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/cdk/createcdk
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"name":"1","type":"2","cdkkey":"","quantity":100000,"plaform":["1"],"channel":["久游","小米"],"takeEffectTime":"2020-08-26T16:00:00.000Z","failureTime":"2020-08-27T16:00:00.000Z","title":"1","text":"2","annexList":[{"annexName":["特殊道具","9001"],"annexNumber":2,"id":0}]}
+response time: 1598522158935
+err name: SequelizeDatabaseError
+err message: column "undefined" does not exist
+err stack: SequelizeDatabaseError: column "undefined" does not exist
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee$ (H:\project\server\src\app\service\/cdk.js:18:31)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.createcdk (H:\project\server\src\app\service\cdk.js:119:27)
+    at _callee$ (H:\project\server\src\app\controllers\/cdk.js:10:33)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createcdk (H:\project\server\src\app\controllers\cdk.js:76:27)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee$ (H:\project\server\src\app\service\/cdk.js:18:31)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.createcdk (H:\project\server\src\app\service\cdk.js:119:27)
+    at _callee$ (H:\project\server\src\app\controllers\/cdk.js:10:33)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at createcdk (H:\project\server\src\app\controllers\cdk.js:76:27)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+*************** error log end ***************
+
+[2020-08-27T20:19:51.437] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=NuetWndBdV
+request client ip:  ::1
+request query:  {"key":"NuetWndBdV"}
+response time: 1598530791436
+err name: TypeError
+err message: Cannot read property 'type' of undefined
+err stack: TypeError: Cannot read property 'type' of undefined
+    at CDKService._callee4$ (H:\project\server\src\app\service\/cdk.js:130:9)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-27T20:40:36.083] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/find?key=CDKID&value=&regtime=&stime=&plaform=&channel=&servername=&setime=&page=1&pagesize=10
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"CDKID","value":"","regtime":"","stime":"","plaform":"","channel":"","servername":"","setime":"","page":"1","pagesize":"10","gameid":"1"}
+response time: 1598532036082
+err name: SequelizeDatabaseError
+err message: column "gameid" does not exist
+err stack: SequelizeDatabaseError: column "gameid" does not exist
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+From previous event:
+    at Query.run (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:64:23)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:29
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:655:12
+    at processImmediate (internal/timers.js:456:21)
+From previous event:
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:651:10
+    at H:\project\server\node_modules\retry-as-promised\index.js:70:21
+    at new Promise (<anonymous>)
+    at retryAsPromised (H:\project\server\node_modules\retry-as-promised\index.js:60:10)
+    at H:\project\server\node_modules\sequelize\lib\sequelize.js:641:30
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee11$ (H:\project\server\src\app\service\/cdk.js:225:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:752:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at find (H:\project\server\src\app\controllers\cdk.js:268:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+From previous event:
+    at Sequelize.query (H:\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee11$ (H:\project\server\src\app\service\/cdk.js:225:21)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.find (H:\project\server\src\app\service\cdk.js:752:22)
+    at _callee7$ (H:\project\server\src\app\controllers\/cdk.js:54:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at find (H:\project\server\src\app\controllers\cdk.js:268:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/auth.js:40:9)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+

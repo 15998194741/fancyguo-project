@@ -1,0 +1,156 @@
+[2020-08-11T18:17:21.933] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597139816696","stime":"Tue Aug 04 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 14 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"小米","servername":["11111","1111","1","212"],"interval":"1","weights":"8","title":"","images":"","a":"","text":"123123","type":"1","gameid":"1"}
+response time: 1597141041933
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T18:17:31.266] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597139816696","stime":"Tue Aug 04 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 14 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"小米","servername":["11111","1111","1","212"],"interval":"1","weights":"8","title":"","images":"","a":"","text":"123123","type":"1","gameid":"1"}
+response time: 1597141051266
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T18:18:11.358] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597139816696","stime":"Tue Aug 04 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 14 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"小米","servername":["11111","1111","1","212"],"interval":"1","weights":"8","title":"","images":"","a":"","text":"123123","type":"1","gameid":"1"}
+response time: 1597141091358
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T18:19:07.454] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597139816696","stime":"Tue Aug 04 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 14 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"小米","servername":["11111","1111","1","212"],"interval":"1","weights":"8","title":"","images":"","a":"","text":"123123","type":"1","gameid":"1"}
+response time: 1597141147454
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:39:58.386] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597139816696","stime":"Tue Aug 04 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 14 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"小米","servername":["11111","1111","1","212"],"interval":"1","weights":"8","title":"","images":"","a":"","text":"123123","type":"1","gameid":"1"}
+response time: 1597145998386
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:41:48.403] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146081290","stime":"Mon Jul 27 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Thu Aug 13 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"小米","servername":"1111","interval":"1","weights":"1","title":"","images":"","a":"","text":"1111","type":"1","gameid":"1"}
+response time: 1597146108402
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:44:05.904] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146206802","stime":"Wed Aug 19 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 28 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"久游","servername":["123","测试服3"],"interval":"1","weights":"1","title":"","images":"","a":"","text":"","type":"1","gameid":"1"}
+response time: 1597146245904
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:44:09.876] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146206802","stime":"Wed Aug 19 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 28 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"久游","servername":["123","测试服3"],"interval":"1","weights":"1","title":"","images":"","a":"","text":"789456123","type":"1","gameid":"1"}
+response time: 1597146249876
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:44:16.082] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146206802","stime":"Wed Aug 19 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 28 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"久游","servername":["123","测试服3"],"interval":"1","weights":"1","title":"","images":"","a":"","text":"","type":"1","gameid":"1"}
+response time: 1597146256082
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:44:18.563] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146206802","stime":"Wed Aug 19 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 28 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"久游","servername":["123","测试服3"],"interval":"1","weights":"1","title":"","images":"","a":"","text":"","type":"1","gameid":"1"}
+response time: 1597146258563
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:44:33.205] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146206802","stime":"Wed Aug 19 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 28 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"久游","servername":["123","测试服3"],"interval":"1","weights":"1","title":"","images":"","a":"","text":"","type":"1","gameid":"1"}
+response time: 1597146273205
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+
+[2020-08-11T19:45:43.869] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/announcement/create
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"bulletinid":"11597146320842","stime":"Fri Aug 21 2020 00:00:00 GMT+0800 (中国标准时间)","etime":"Fri Aug 28 2020 00:00:00 GMT+0800 (中国标准时间)","plaform":"1","channel":"久游","servername":"测试服3","interval":"1","weights":"2","title":"","images":"","a":"","text":"1","type":"1","gameid":"1"}
+response time: 1597146343869
+err name: undefined
+err message: undefined
+err stack: undefined
+*************** error log end ***************
+

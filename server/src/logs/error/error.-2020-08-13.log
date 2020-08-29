@@ -1,0 +1,191 @@
+[2020-08-13T15:20:26.903] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/selectComponent?code=areaclothing
+request client ip:  ::ffff:127.0.0.1
+request query:  {"code":"areaclothing","gameid":"1"}
+response time: 1597303226901
+err name: SequelizeConnectionError
+err message: sorry, too many clients already
+err stack: SequelizeConnectionError: sorry, too many clients already
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:182:24
+    at Connection.connectingErrorHandler (E:\third\project\server\node_modules\pg\lib\client.js:194:14)
+    at Connection.emit (events.js:315:20)
+    at Socket.<anonymous> (E:\third\project\server\node_modules\pg\lib\connection.js:134:12)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+*************** error log end ***************
+
+[2020-08-13T15:22:12.598] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/selectComponent?code=areaclothing
+request client ip:  ::ffff:127.0.0.1
+request query:  {"code":"areaclothing","gameid":"1"}
+response time: 1597303332598
+err name: SequelizeConnectionError
+err message: sorry, too many clients already
+err stack: SequelizeConnectionError: sorry, too many clients already
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:182:24
+    at Connection.connectingErrorHandler (E:\third\project\server\node_modules\pg\lib\client.js:194:14)
+    at Connection.emit (events.js:315:20)
+    at Socket.<anonymous> (E:\third\project\server\node_modules\pg\lib\connection.js:134:12)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+*************** error log end ***************
+
+[2020-08-13T15:27:53.309] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/selectComponent?code=areaclothing
+request client ip:  ::ffff:127.0.0.1
+request query:  {"code":"areaclothing","gameid":"1"}
+response time: 1597303673309
+err name: SequelizeConnectionError
+err message: sorry, too many clients already
+err stack: SequelizeConnectionError: sorry, too many clients already
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:182:24
+    at Connection.connectingErrorHandler (E:\third\project\server\node_modules\pg\lib\client.js:194:14)
+    at Connection.emit (events.js:315:20)
+    at Socket.<anonymous> (E:\third\project\server\node_modules\pg\lib\connection.js:134:12)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+*************** error log end ***************
+
+[2020-08-13T15:28:35.575] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/selectComponent?code=areaclothing
+request client ip:  ::ffff:127.0.0.1
+request query:  {"code":"areaclothing","gameid":"1"}
+response time: 1597303715575
+err name: SequelizeConnectionError
+err message: sorry, too many clients already
+err stack: SequelizeConnectionError: sorry, too many clients already
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:182:24
+    at Connection.connectingErrorHandler (E:\third\project\server\node_modules\pg\lib\client.js:194:14)
+    at Connection.emit (events.js:315:20)
+    at Socket.<anonymous> (E:\third\project\server\node_modules\pg\lib\connection.js:134:12)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+*************** error log end ***************
+
+[2020-08-13T15:28:37.773] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/selectComponent?code=areaclothing
+request client ip:  ::ffff:127.0.0.1
+request query:  {"code":"areaclothing","gameid":"1"}
+response time: 1597303717773
+err name: SequelizeConnectionError
+err message: sorry, too many clients already
+err stack: SequelizeConnectionError: sorry, too many clients already
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:182:24
+    at Connection.connectingErrorHandler (E:\third\project\server\node_modules\pg\lib\client.js:194:14)
+    at Connection.emit (events.js:315:20)
+    at Socket.<anonymous> (E:\third\project\server\node_modules\pg\lib\connection.js:134:12)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+*************** error log end ***************
+
+[2020-08-13T15:29:44.333] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/server/selectComponent?code=areaclothing
+request client ip:  ::ffff:127.0.0.1
+request query:  {"code":"areaclothing","gameid":"1"}
+response time: 1597303784333
+err name: SequelizeConnectionError
+err message: sorry, too many clients already
+err stack: SequelizeConnectionError: sorry, too many clients already
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\connection-manager.js:182:24
+    at Connection.connectingErrorHandler (E:\third\project\server\node_modules\pg\lib\client.js:194:14)
+    at Connection.emit (events.js:315:20)
+    at Socket.<anonymous> (E:\third\project\server\node_modules\pg\lib\connection.js:134:12)
+    at Socket.emit (events.js:315:20)
+    at addChunk (_stream_readable.js:295:12)
+    at readableAddChunk (_stream_readable.js:271:9)
+    at Socket.Readable.push (_stream_readable.js:212:10)
+    at TCP.onStreamRead (internal/stream_base_commons.js:186:23)
+*************** error log end ***************
+
+[2020-08-13T17:19:49.668] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/getQueryAnnexOptions
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameid":"1"}
+response time: 1597310389668
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "where" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "where" 或附近的
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-13T20:22:31.557] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":false,"gameid":"1"}
+response time: 1597321351556
+err name: ReferenceError
+err message: gameid is not defined
+err stack: ReferenceError: gameid is not defined
+    at _callee6$ (E:\third\project\server\src\app\service\/mail.js:43:116)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at MailService.<anonymous> (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at MailService.postMailToCreate (E:\third\project\server\src\app\service\mail.js:221:34)
+    at _callee6$ (E:\third\project\server\src\app\controllers\/mail.js:45:37)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at postMailToCreate (E:\third\project\server\src\app\controllers\mail.js:236:34)
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\third\project\server\node_modules\koa-compose\index.js:45:18)
+    at E:\third\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+    at E:\third\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\third\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\third\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\third\project\server\node_modules\koa-mount\index.js:52:32
+*************** error log end ***************
+

@@ -1,0 +1,515 @@
+[2020-08-14T10:36:36.512] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":false,"gameid":"1"}
+response time: 1597372596512
+err name: ReferenceError
+err message: sql is not defined
+err stack: ReferenceError: sql is not defined
+    at _callee6$ (E:\third\project\server\src\app\service\/mail.js:45:6)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at MailService.<anonymous> (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at MailService.postMailToCreate (E:\third\project\server\src\app\service\mail.js:223:34)
+    at _callee6$ (E:\third\project\server\src\app\controllers\/mail.js:45:37)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at postMailToCreate (E:\third\project\server\src\app\controllers\mail.js:236:34)
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\third\project\server\node_modules\koa-compose\index.js:45:18)
+    at E:\third\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+    at E:\third\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\third\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\third\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\third\project\server\node_modules\koa-mount\index.js:52:32
+*************** error log end ***************
+
+[2020-08-14T10:36:52.295] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1111","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":false,"gameid":"1"}
+response time: 1597372612295
+err name: SequelizeDatabaseError
+err message: 关系 "gm_smtp" 的 "servername" 字段不存在
+err stack: SequelizeDatabaseError: 关系 "gm_smtp" 的 "servername" 字段不存在
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T10:38:45.470] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1111","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":false,"gameid":"1"}
+response time: 1597372725469
+err name: SequelizeDatabaseError
+err message: 关系 "gm_smtp" 的 "servername" 字段不存在
+err stack: SequelizeDatabaseError: 关系 "gm_smtp" 的 "servername" 字段不存在
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T10:39:24.625] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1111","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":false,"gameid":"1"}
+response time: 1597372764625
+err name: SequelizeDatabaseError
+err message: 有缺陷的数组常量:"null"
+err stack: SequelizeDatabaseError: 有缺陷的数组常量:"null"
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T10:52:05.893] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1111","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":true,"Annex":[{"name":["5001"],"number":"1111"},{"name":["17002"],"number":"222"}],"gameid":"1"}
+response time: 1597373525892
+err name: SequelizeDatabaseError
+err message: 类型json的输入语法无效
+err stack: SequelizeDatabaseError: 类型json的输入语法无效
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T10:52:49.844] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":true,"Annex":[{"name":"9001","number":"111"},{"name":"9002","number":"2"}],"gameid":"1"}
+response time: 1597373569844
+err name: SequelizeDatabaseError
+err message: 类型json的输入语法无效
+err stack: SequelizeDatabaseError: 类型json的输入语法无效
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T10:54:54.990] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":true,"Annex":["{\"name\":\"9001\",\"number\":\"111\"}","{\"name\":\"9002\",\"number\":\"2\"}"],"gameid":"1"}
+response time: 1597373694990
+err name: SequelizeDatabaseError
+err message: 类型json的输入语法无效
+err stack: SequelizeDatabaseError: 类型json的输入语法无效
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T13:02:12.297] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"1","channel":["小米","久游"],"serverName":["2007151627398421"],"carryAnnex":false,"gameid":"1"}
+response time: 1597381332296
+err name: SequelizeDatabaseError
+err message: 类型json的输入语法无效
+err stack: SequelizeDatabaseError: 类型json的输入语法无效
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T14:01:56.633] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=&pagesize=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"","pagesize":"","gameid":"1"}
+response time: 1597384916632
+err name: TypeError
+err message: Cannot read property 'trim' of undefined
+err stack: TypeError: Cannot read property 'trim' of undefined
+    at E:\third\project\server\node_modules\sequelize\lib\sequelize.js:611:17
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Function.Promise.attempt.Promise.try (E:\third\project\server\node_modules\bluebird\js\release\method.js:39:29)
+    at Sequelize.query (E:\third\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee$ (E:\third\project\server\src\app\service\/mail.js:21:31)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at MailService.<anonymous> (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at MailService.queryByParms (E:\third\project\server\src\app\service\mail.js:86:30)
+    at _callee$ (E:\third\project\server\src\app\controllers\/mail.js:10:34)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at querymail (E:\third\project\server\src\app\controllers\mail.js:76:27)
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\third\project\server\node_modules\koa-compose\index.js:45:18)
+    at E:\third\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2020-08-14T14:01:57.034] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=&pagesize=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"","pagesize":"","gameid":"1"}
+response time: 1597384917033
+err name: TypeError
+err message: Cannot read property 'trim' of undefined
+err stack: TypeError: Cannot read property 'trim' of undefined
+    at E:\third\project\server\node_modules\sequelize\lib\sequelize.js:611:17
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Function.Promise.attempt.Promise.try (E:\third\project\server\node_modules\bluebird\js\release\method.js:39:29)
+    at Sequelize.query (E:\third\project\server\node_modules\sequelize\lib\sequelize.js:590:23)
+    at _callee$ (E:\third\project\server\src\app\service\/mail.js:21:31)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at MailService.<anonymous> (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at MailService.queryByParms (E:\third\project\server\src\app\service\mail.js:86:30)
+    at _callee$ (E:\third\project\server\src\app\controllers\/mail.js:10:34)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at querymail (E:\third\project\server\src\app\controllers\mail.js:76:27)
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (E:\third\project\server\node_modules\koa-compose\index.js:45:18)
+    at E:\third\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\third\project\server\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2020-08-14T14:20:18.574] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=1&channel=&annex=&serverName=&createTime=&page=1&pagesize=50
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"1","channel":"","annex":"","serverName":"","createTime":"","page":"1","pagesize":"50","gameid":"1"}
+response time: 1597386018574
+err name: SequelizeDatabaseError
+err message: 操作符不存在: character varying = integer
+err stack: SequelizeDatabaseError: 操作符不存在: character varying = integer
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T14:34:08.389] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/annexAllQuery
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameid":"1"}
+response time: 1597386848389
+err name: SequelizeDatabaseError
+err message: 关系 "gm_articel" 不存在
+err stack: SequelizeDatabaseError: 关系 "gm_articel" 不存在
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T14:40:55.146] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":true,"Annex":["{\"ID\":\"9002\",\"number\":\"1\"}","{\"ID\":\"9001\",\"number\":\"1\"}","{\"ID\":\"5002\",\"number\":\"2\"}"],"gameid":"1"}
+response time: 1597387255145
+err name: SequelizeDatabaseError
+err message: 类型json的输入语法无效
+err stack: SequelizeDatabaseError: 类型json的输入语法无效
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T14:43:19.675] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":true,"Annex":["{\"ID\":\"9002\",\"number\":\"1\"}","{\"ID\":\"9001\",\"number\":\"1\"}","{\"ID\":\"5002\",\"number\":\"2\"}"],"gameid":"1"}
+response time: 1597387399674
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "[" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "[" 或附近的
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T14:43:30.190] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":false,"roleId":"1","mailLink":"1","plaform":"","channel":[],"serverName":[],"carryAnnex":true,"Annex":["{\"ID\":\"9002\",\"number\":\"1\"}","{\"ID\":\"9001\",\"number\":\"1\"}","{\"ID\":\"5002\",\"number\":\"2\"}"],"gameid":"1"}
+response time: 1597387410190
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "[" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "[" 或附近的
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T18:20:02.156] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=1&pagesize=50&servername=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"1","pagesize":"50","servername":"","gameid":"1"}
+response time: 1597400402155
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "undefined" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "undefined" 或附近的
+    at Query.formatError (G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (G:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (G:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (G:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (G:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (G:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (G:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (G:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (G:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (G:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T18:20:04.188] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=1&pagesize=50&servername=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"1","pagesize":"50","servername":"","gameid":"1"}
+response time: 1597400404188
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "undefined" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "undefined" 或附近的
+    at Query.formatError (G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (G:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (G:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (G:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (G:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (G:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (G:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (G:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (G:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (G:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T18:20:11.439] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=1&pagesize=50&servername=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"1","pagesize":"50","servername":"","gameid":"1"}
+response time: 1597400411439
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "undefined" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "undefined" 或附近的
+    at Query.formatError (G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (G:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (G:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (G:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (G:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (G:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (G:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (G:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (G:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (G:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-14T18:42:50.034] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=1&pagesize=50&servername=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"1","pagesize":"50","servername":"","gameid":"1"}
+response time: 1597401770033
+err name: SequelizeDatabaseError
+err message: 语法错误 在 "undefined" 或附近的
+err stack: SequelizeDatabaseError: 语法错误 在 "undefined" 或附近的
+    at Query.formatError (G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at G:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (G:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (G:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (G:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (G:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (G:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (G:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (G:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (G:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (G:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+

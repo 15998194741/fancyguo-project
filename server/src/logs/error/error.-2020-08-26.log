@@ -1,0 +1,1643 @@
+[2020-08-26T12:15:52.735] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598415352734
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T12:16:08.128] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598415368128
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T12:16:28.718] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598415388718
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T12:16:43.061] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598415403061
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T12:30:34.664] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598416234664
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T12:31:20.372] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/user/permission?username=admin
+request client ip:  ::ffff:127.0.0.1
+request query:  {"username":"admin"}
+response time: 1598416280371
+err name: TypeError
+err message: Cannot read property 'id' of undefined
+err stack: TypeError: Cannot read property 'id' of undefined
+    at _callee$ (H:\project\server\src\app\controllers\/user.js:21:47)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at findUser (H:\project\server\src\app\controllers\user.js:91:26)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T15:51:33.349] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428293349
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee$ (H:\project\server\src\config\/mongoDBconfig.js:38:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.insertData (H:\project\server\src\config\mongoDBconfig.js:114:29)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:63:18)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:51:49.574] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428309574
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee$ (H:\project\server\src\config\/mongoDBconfig.js:38:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.insertData (H:\project\server\src\config\mongoDBconfig.js:114:29)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:63:18)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:54:55.962] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428495960
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee$ (H:\project\server\src\config\/mongoDBconfig.js:38:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.insertData (H:\project\server\src\config\mongoDBconfig.js:114:29)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:63:18)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:56:06.404] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428566403
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:40:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:56:38.286] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428598285
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:40:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:57:09.372] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428629372
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:41:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:57:32.257] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428652257
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:42:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:58:39.523] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428719522
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:43:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T15:59:42.257] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1598428782257
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:31:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:01:26.090] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428886089
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:31:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:01:38.275] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598428898275
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:31:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:04:17.148] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429057148
+err name: TypeError
+err message: cache.set is not a function
+err stack: TypeError: cache.set is not a function
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:125:15)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:353:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:17:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:108:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+*************** error log end ***************
+
+[2020-08-26T16:06:55.285] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429215284
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:119:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:350:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:17:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:108:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+*************** error log end ***************
+
+[2020-08-26T16:07:23.814] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429243814
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:119:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:350:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:17:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:108:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+*************** error log end ***************
+
+[2020-08-26T16:09:39.783] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429379782
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:119:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:350:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:17:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:108:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+*************** error log end ***************
+
+[2020-08-26T16:10:22.728] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429422727
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:119:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:350:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:17:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:108:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+*************** error log end ***************
+
+[2020-08-26T16:15:48.082] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429748081
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:15:55.567] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429755566
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:16:09.493] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429769492
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:16:33.187] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429793187
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:18:11.865] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429891864
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:19:02.863] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429942862
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:19:47.737] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598429987736
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:21:43.581] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598430103580
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:24:02.547] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598430242547
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:39:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:24:37.506] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598430277506
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:39:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:25:18.752] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1598430318752
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:39:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:25:22.455] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1598430322455
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:120:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:354:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:18:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:110:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+*************** error log end ***************
+
+[2020-08-26T16:25:58.207] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598430358207
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:39:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:26:04.839] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598430364838
+err name: TypeError
+err message: nodeModel is not a constructor
+err stack: TypeError: nodeModel is not a constructor
+    at mongodb._callee2$ (H:\project\server\src\config\/mongoDBconfig.js:39:14)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T16:31:06.845] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598430666844
+err name: OverwriteModelError
+err message: Cannot overwrite `test` model once compiled.
+err stack: OverwriteModelError: Cannot overwrite `test` model once compiled.
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:528:13)
+    at mongodb._callee6$ (H:\project\server\src\config\/mongoDBconfig.js:120:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.create (H:\project\server\src\config\mongoDBconfig.js:342:24)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:24:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.test (H:\project\server\src\app\service\cdk.js:211:22)
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:18:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:110:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+*************** error log end ***************
+
+[2020-08-26T16:52:24.772] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::ffff:127.0.0.1
+request query:  {}
+response time: 1598431944771
+err name: TypeError
+err message: nodeModel.insertMany is not a function
+err stack: TypeError: nodeModel.insertMany is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:161:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee8$ (H:\project\server\src\config\/mongoDBconfig.js:160:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.insertManyData (H:\project\server\src\config\mongoDBconfig.js:438:32)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:66:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T17:18:52.615] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598433532614
+err name: TypeError
+err message: str.toLowerCase is not a function
+err stack: TypeError: str.toLowerCase is not a function
+    at pluralize (H:\project\server\node_modules\mongoose-legacy-pluralize\index.js:85:13)
+    at Object.exports.toCollectionName (H:\project\server\node_modules\mongoose\lib\utils.js:44:12)
+    at Mongoose.model (H:\project\server\node_modules\mongoose\lib\index.js:558:13)
+    at _callee$ (H:\project\server\src\config\/mongoDBconfig.js:27:25)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.getConnection (H:\project\server\src\config\mongoDBconfig.js:90:31)
+    at mongodb._callee8$ (H:\project\server\src\config\/mongoDBconfig.js:159:30)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.insertManyData (H:\project\server\src\config\mongoDBconfig.js:442:32)
+    at _callee2$ (H:\project\server\src\app\service\/cdk.js:67:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T20:55:10.063] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/test
+request client ip:  ::1
+request query:  {}
+response time: 1598446510062
+err name: TypeError
+err message: _cdk2.default.test is not a function
+err stack: TypeError: _cdk2.default.test is not a function
+    at _callee2$ (H:\project\server\src\app\controllers\/cdk.js:18:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at test (H:\project\server\src\app\controllers\cdk.js:110:22)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+    at H:\project\server\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at H:\project\server\node_modules\koa-compose\index.js:36:12
+    at dispatch (H:\project\server\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at H:\project\server\node_modules\koa-mount\index.js:52:32
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee4$ (H:\project\server\src\middleware\/permission.js:91:17)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at H:\project\server\src\middleware\/permission.js:78:2
+    at next (H:\project\server\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (H:\project\server\src\middleware\/interceptor.js:77:10)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+*************** error log end ***************
+
+[2020-08-26T20:55:57.400] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHlwF2iU
+request client ip:  ::1
+request query:  {"key":"9AAHlwF2iU"}
+response time: 1598446557399
+err name: TypeError
+err message: nodeModel.findOneAndUpdate is not a function
+err stack: TypeError: nodeModel.findOneAndUpdate is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:183:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee9$ (H:\project\server\src\config\/mongoDBconfig.js:182:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findAndUpdate (H:\project\server\src\config\mongoDBconfig.js:489:31)
+    at _callee3$ (H:\project\server\src\app\service\/cdk.js:106:27)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkConvert (H:\project\server\src\app\service\cdk.js:292:28)
+    at _callee3$ (H:\project\server\src\app\controllers\/cdk.js:27:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at cdkConvert (H:\project\server\src\app\controllers\cdk.js:144:28)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2020-08-26T20:56:37.351] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHlwF2iU
+request client ip:  ::1
+request query:  {"key":"9AAHlwF2iU"}
+response time: 1598446597351
+err name: TypeError
+err message: nodeModel.findOneAndUpdate is not a function
+err stack: TypeError: nodeModel.findOneAndUpdate is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:183:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee9$ (H:\project\server\src\config\/mongoDBconfig.js:182:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findAndUpdate (H:\project\server\src\config\mongoDBconfig.js:489:31)
+    at _callee3$ (H:\project\server\src\app\service\/cdk.js:107:27)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkConvert (H:\project\server\src\app\service\cdk.js:293:28)
+    at _callee3$ (H:\project\server\src\app\controllers\/cdk.js:27:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at cdkConvert (H:\project\server\src\app\controllers\cdk.js:144:28)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2020-08-26T21:02:22.515] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkCreateSchedule?tablename=9AAH
+request client ip:  ::1
+request query:  {"tablename":"9AAH"}
+response time: 1598446942514
+err name: TypeError
+err message: nodeModel.count is not a function
+err stack: TypeError: nodeModel.count is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:205:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee10$ (H:\project\server\src\config\/mongoDBconfig.js:204:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.count (H:\project\server\src\config\mongoDBconfig.js:540:23)
+    at _callee4$ (H:\project\server\src\app\service\/cdk.js:111:27)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkCreateSchedule (H:\project\server\src\app\service\cdk.js:323:35)
+    at _callee4$ (H:\project\server\src\app\controllers\/cdk.js:36:36)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at cdkCreateSchedule (H:\project\server\src\app\controllers\cdk.js:176:35)
+    at dispatch (H:\project\server\node_modules\koa-compose\index.js:44:32)
+    at next (H:\project\server\node_modules\koa-compose\index.js:45:18)
+*************** error log end ***************
+
+[2020-08-26T21:26:29.340] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAH
+request client ip:  ::1
+request query:  {"key":"9AAH"}
+response time: 1598448389339
+err name: TypeError
+err message: nodeModel.findOne is not a function
+err stack: TypeError: nodeModel.findOne is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:80:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee4$ (H:\project\server\src\config\/mongoDBconfig.js:79:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findOne (H:\project\server\src\config\mongoDBconfig.js:238:25)
+    at _callee4$ (H:\project\server\src\app\service\/cdk.js:126:27)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkMutually (H:\project\server\src\app\service\cdk.js:395:29)
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:117:54)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-26T21:26:34.926] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHhLH2DD
+request client ip:  ::1
+request query:  {"key":"9AAHhLH2DD"}
+response time: 1598448394926
+err name: TypeError
+err message: nodeModel.findOne is not a function
+err stack: TypeError: nodeModel.findOne is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:80:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee4$ (H:\project\server\src\config\/mongoDBconfig.js:79:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findOne (H:\project\server\src\config\mongoDBconfig.js:238:25)
+    at _callee4$ (H:\project\server\src\app\service\/cdk.js:126:27)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkMutually (H:\project\server\src\app\service\cdk.js:395:29)
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:117:54)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-26T21:26:54.703] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHhLH2DD
+request client ip:  ::1
+request query:  {"key":"9AAHhLH2DD"}
+response time: 1598448414702
+err name: TypeError
+err message: nodeModel.findOne is not a function
+err stack: TypeError: nodeModel.findOne is not a function
+    at res (H:\project\server\src\config\/mongoDBconfig.js:80:14)
+    at new Promise (<anonymous>)
+    at mongodb._callee4$ (H:\project\server\src\config\/mongoDBconfig.js:79:19)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at mongodb.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at mongodb.findOne (H:\project\server\src\config\mongoDBconfig.js:238:25)
+    at _callee4$ (H:\project\server\src\app\service\/cdk.js:126:27)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at CDKService.<anonymous> (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at CDKService.cdkMutually (H:\project\server\src\app\service\cdk.js:395:29)
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:117:54)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-26T21:32:00.515] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448720515
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:118:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:32:07.516] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448727516
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:118:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:32:13.094] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448733094
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:118:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:32:16.188] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448736188
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:118:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:32:40.949] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448760948
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:118:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:32:41.921] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::ffff:127.0.0.1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448761921
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:118:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:33:09.312] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448789312
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:119:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:33:16.397] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448796397
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:119:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-26T21:33:40.181] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/cdk/cdkConvert?key=9AAHho55fm&roleid=3
+request client ip:  ::1
+request query:  {"key":"9AAHho55fm","roleid":"3"}
+response time: 1598448820181
+err name: TypeError
+err message: Cannot set property 'annex' of null
+err stack: TypeError: Cannot set property 'annex' of null
+    at CDKService._callee3$ (H:\project\server\src\app\service\/cdk.js:119:73)
+    at tryCatch (H:\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (H:\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (H:\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (H:\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+

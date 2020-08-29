@@ -1,0 +1,194 @@
+[2020-08-15T13:44:40.136] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":"","roleId":"1","mailLink":"1","plaform":"1","channel":["久游"],"serverName":["20071516184210273","2007161142315845","2007161148146459"],"carryAnnex":false,"Annex":"","gameid":"1"}
+response time: 1597470280136
+err name: SequelizeDatabaseError
+err message: invalid input syntax for type json
+err stack: SequelizeDatabaseError: invalid input syntax for type json
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T13:48:33.866] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/mail/postMailToCreate
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"title":"1","text":"1","allServerTrue":"","roleId":"q","mailLink":"1","plaform":"1","channel":["久游"],"serverName":["2007161139537589","2007161148146459","2007161142315845","20071611482987103","20071612094274910","200716114255","20071516184210273"],"carryAnnex":false,"Annex":"","gameid":"1"}
+response time: 1597470513865
+err name: SequelizeDatabaseError
+err message: invalid input syntax for type json
+err stack: SequelizeDatabaseError: invalid input syntax for type json
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T15:25:21.195] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/getQueryAnnexServernames
+request client ip:  ::ffff:127.0.0.1
+request query:  {"gameid":"1"}
+response time: 1597476321195
+err name: SequelizeDatabaseError
+err message: column "servernameid" does not exist
+err stack: SequelizeDatabaseError: column "servernameid" does not exist
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T15:34:36.427] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&serverName=&page=1&pagesize=50
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","serverName":"","page":"1","pagesize":"50","gameid":"1"}
+response time: 1597476876426
+err name: SequelizeDatabaseError
+err message: syntax error at or near "null"
+err stack: SequelizeDatabaseError: syntax error at or near "null"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T15:38:15.856] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime=&page=1&pagesize=50&servername=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime":"","page":"1","pagesize":"50","servername":"","gameid":"1"}
+response time: 1597477095854
+err name: SequelizeDatabaseError
+err message: syntax error at or near "null"
+err stack: SequelizeDatabaseError: syntax error at or near "null"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T15:39:26.392] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime[]=2020-07-26T16:00:00.000Z&createTime[]=2020-09-30T16:00:00.000Z&page=1&pagesize=50
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime[]":["2020-07-26T16:00:00.000Z","2020-09-30T16:00:00.000Z"],"page":"1","pagesize":"50","createTime":["2020-07-26T16:00:00.000Z","2020-09-30T16:00:00.000Z"],"gameid":"1"}
+response time: 1597477166391
+err name: SequelizeDatabaseError
+err message: syntax error at or near "2020"
+err stack: SequelizeDatabaseError: syntax error at or near "2020"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T15:39:44.958] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime[]=2020-08-10T16:00:00.000Z&createTime[]=2020-09-29T16:00:00.000Z&page=1&pagesize=50
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime[]":["2020-08-10T16:00:00.000Z","2020-09-29T16:00:00.000Z"],"page":"1","pagesize":"50","createTime":["2020-08-10T16:00:00.000Z","2020-09-29T16:00:00.000Z"],"gameid":"1"}
+response time: 1597477184958
+err name: SequelizeDatabaseError
+err message: syntax error at or near "2020"
+err stack: SequelizeDatabaseError: syntax error at or near "2020"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-15T15:52:55.425] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/mail/query?Id=&plaform=&channel=&annex=&serverName=&createTime[]=2020-08-04T16:00:00.000Z&createTime[]=2020-09-24T16:00:00.000Z&page=1&pagesize=100&servername=
+request client ip:  ::ffff:127.0.0.1
+request query:  {"Id":"","plaform":"","channel":"","annex":"","serverName":"","createTime[]":["2020-08-04T16:00:00.000Z","2020-09-24T16:00:00.000Z"],"page":"1","pagesize":"100","servername":"","createTime":["2020-08-04T16:00:00.000Z","2020-09-24T16:00:00.000Z"],"gameid":"1"}
+response time: 1597477975424
+err name: SequelizeDatabaseError
+err message: syntax error at or near "T16"
+err stack: SequelizeDatabaseError: syntax error at or near "T16"
+    at Query.formatError (H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at H:\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (H:\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (H:\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (H:\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (H:\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (H:\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (H:\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (H:\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (H:\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (H:\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+

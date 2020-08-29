@@ -1,0 +1,6 @@
+{"#distinct_id": "distinct_id","#account_id": "account_id","#type":"user_setOnce","#ip": "10.1.1.224","#time":"2020-07-20 14:00:00.000","properties":{"regtime": "regtime","palform": "palform","update_time": "update_time","serverid": "serverid","channel": "channel","machine": "machine","level": "level","vip_level": "vip_level","role_name": "role_name","sum_recharge": "sum_recharge","servername":"servername","roleid": "roleid"}}
+
+
+
+
+curl "http://103.210.21.117:8992/sync_data" --data "appid=f5901eb9ce6f4381bf476d804a36a984&data=%7B%22%23distinct_id%22%3A%20%22distinct_id%22%2C%20%22%23account_id%22%3A%20%22account_id%22%2C%20%22%23type%22%3A%20%22user_append%22%2C%20%22%23ip%22%3A%20%2210.1.1.224%22%2C%20%22%23time%22%3A%20%222020-07-20%2014%3A00%3A00.000%22%2C%20%22properties%22%3A%20%7B%22regtime%22%3A%20%22regtime%22%2C%20%22palform%22%3A%20%22palform%22%2C%20%22update_time%22%3A%20%22update_time%22%2C%20%22serverid%22%3A%20%22serverid%22%2C%20%22channel%22%3A%20%22channel%22%2C%20%22machine%22%3A%20%22machine%22%2C%20%22level%22%3A%20%22level%22%2C%20%22vip_level%22%3A%20%22vip_level%22%2C%20%22role_name%22%3A%20%22role_name%22%2C%20%22sum_recharge%22%3A%20%22sum_recharge%22%2C%20%22servername%22%3A%20%22servername%22%2C%20%22roleid%22%3A%20%22roleid%22%7D%7D&debug=1"

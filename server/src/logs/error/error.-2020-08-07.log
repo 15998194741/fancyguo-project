@@ -1,0 +1,398 @@
+[2020-08-07T13:46:45.174] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/recharge/query?roleid=&stime=&plaform=2&servername=&page=1&pagesize=10&srttime[]=2020-08-04T16:00:00.000Z&srttime[]=2020-09-12T16:00:00.000Z
+request client ip:  ::ffff:127.0.0.1
+request query:  {"roleid":"","stime":"","plaform":"2","servername":"","page":"1","pagesize":"10","srttime[]":["2020-08-04T16:00:00.000Z","2020-09-12T16:00:00.000Z"],"srttime":["2020-08-04T16:00:00.000Z","2020-09-12T16:00:00.000Z"],"gameid":"1"}
+response time: 1596779205173
+err name: TypeError
+err message: connection.close is not a function
+err stack: TypeError: connection.close is not a function
+    at _callee3$ (E:\third\project\server\src\app\service\/recharge.js:95:14)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-07T13:47:55.738] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/recharge/replenishment
+request client ip:  ::ffff:127.0.0.1
+request body: 
+[{"roleId":"321","roleName":"321","platform":null,"uid":"35f9b1fb76a749ada507c9bed5348852","pid":"1","channel":null,"deviceid":null,"isOK":"成功","isSend":"","serverId":"3213","price":"1000","tid":"12312312312312312312312312","createdAt":"2020年08月22日14时49分56秒","updatedAt":"2020年08月22日14时49分49秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"17771b6d40d944a1bfca5dab12f019b1","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"09791320200805145121000001","createdAt":"2020年08月05日14时51分21秒","updatedAt":"2020年08月05日14时51分21秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"01035920200805151025000001","createdAt":"2020年08月05日15时10分25秒","updatedAt":"2020年08月05日15时10分25秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"成功","isSend":"","serverId":"testserver1","price":"10000","tid":"03525220200805155301000002","createdAt":"2020年08月05日15时53分01秒","updatedAt":"2020年08月05日15时55分21秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"1","tid":"87416820200805163807000003","createdAt":"2020年08月05日16时38分07秒","updatedAt":"2020年08月05日16时38分07秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"55579120200806155216000001","createdAt":"2020年08月06日15时52分17秒","updatedAt":"2020年08月06日15时52分17秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"82416220200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"96767320200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"74188320200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"79686420200806155329000005","createdAt":"2020年08月06日15时53分29秒","updatedAt":"2020年08月06日15时53分29秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"86105620200806155329000006","createdAt":"2020年08月06日15时53分29秒","updatedAt":"2020年08月06日15时53分29秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"26482220200806155329000006","createdAt":"2020年08月06日15时53分30秒","updatedAt":"2020年08月06日15时53分30秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"74030020200806155331000008","createdAt":"2020年08月06日15时53分31秒","updatedAt":"2020年08月06日15时53分31秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"87161320200806155332000009","createdAt":"2020年08月06日15时53分32秒","updatedAt":"2020年08月06日15时53分32秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"49265720200806155704000010","createdAt":"2020年08月06日15时57分04秒","updatedAt":"2020年08月06日15时57分04秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"12560720200806162246000011","createdAt":"2020年08月06日16时22分46秒","updatedAt":"2020年08月06日16时22分46秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"55080720200806162655000012","createdAt":"2020年08月06日16时26分55秒","updatedAt":"2020年08月06日16时26分55秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"90555120200806162935000013","createdAt":"2020年08月06日16时29分35秒","updatedAt":"2020年08月06日16时29分35秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"38555420200806163651000014","createdAt":"2020年08月06日16时36分52秒","updatedAt":"2020年08月06日16时36分52秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"22904220200806163922000015","createdAt":"2020年08月06日16时39分22秒","updatedAt":"2020年08月06日16时39分22秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"94065920200806164039000016","createdAt":"2020年08月06日16时40分40秒","updatedAt":"2020年08月06日16时40分40秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"89800720200806164156000017","createdAt":"2020年08月06日16时41分56秒","updatedAt":"2020年08月06日16时41分56秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"59872220200806164204000018","createdAt":"2020年08月06日16时42分05秒","updatedAt":"2020年08月06日16时42分05秒","type":"安卓"}]
+response time: 1596779275737
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee2$ (E:\third\project\server\src\app\controllers\/recharge.js:21:22)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-07T13:48:15.256] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/recharge/replenishment
+request client ip:  ::ffff:127.0.0.1
+request body: 
+[{"roleId":"321","roleName":"321","platform":null,"uid":"35f9b1fb76a749ada507c9bed5348852","pid":"1","channel":null,"deviceid":null,"isOK":"成功","isSend":"","serverId":"3213","price":"1000","tid":"12312312312312312312312312","createdAt":"2020年08月22日14时49分56秒","updatedAt":"2020年08月22日14时49分49秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"17771b6d40d944a1bfca5dab12f019b1","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"09791320200805145121000001","createdAt":"2020年08月05日14时51分21秒","updatedAt":"2020年08月05日14时51分21秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"01035920200805151025000001","createdAt":"2020年08月05日15时10分25秒","updatedAt":"2020年08月05日15时10分25秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"成功","isSend":"","serverId":"testserver1","price":"10000","tid":"03525220200805155301000002","createdAt":"2020年08月05日15时53分01秒","updatedAt":"2020年08月05日15时55分21秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"1","tid":"87416820200805163807000003","createdAt":"2020年08月05日16时38分07秒","updatedAt":"2020年08月05日16时38分07秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"55579120200806155216000001","createdAt":"2020年08月06日15时52分17秒","updatedAt":"2020年08月06日15时52分17秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"82416220200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"96767320200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"74188320200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"79686420200806155329000005","createdAt":"2020年08月06日15时53分29秒","updatedAt":"2020年08月06日15时53分29秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"86105620200806155329000006","createdAt":"2020年08月06日15时53分29秒","updatedAt":"2020年08月06日15时53分29秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"26482220200806155329000006","createdAt":"2020年08月06日15时53分30秒","updatedAt":"2020年08月06日15时53分30秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"74030020200806155331000008","createdAt":"2020年08月06日15时53分31秒","updatedAt":"2020年08月06日15时53分31秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"87161320200806155332000009","createdAt":"2020年08月06日15时53分32秒","updatedAt":"2020年08月06日15时53分32秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"49265720200806155704000010","createdAt":"2020年08月06日15时57分04秒","updatedAt":"2020年08月06日15时57分04秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"12560720200806162246000011","createdAt":"2020年08月06日16时22分46秒","updatedAt":"2020年08月06日16时22分46秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"55080720200806162655000012","createdAt":"2020年08月06日16时26分55秒","updatedAt":"2020年08月06日16时26分55秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"90555120200806162935000013","createdAt":"2020年08月06日16时29分35秒","updatedAt":"2020年08月06日16时29分35秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"38555420200806163651000014","createdAt":"2020年08月06日16时36分52秒","updatedAt":"2020年08月06日16时36分52秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"22904220200806163922000015","createdAt":"2020年08月06日16时39分22秒","updatedAt":"2020年08月06日16时39分22秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"94065920200806164039000016","createdAt":"2020年08月06日16时40分40秒","updatedAt":"2020年08月06日16时40分40秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"89800720200806164156000017","createdAt":"2020年08月06日16时41分56秒","updatedAt":"2020年08月06日16时41分56秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"59872220200806164204000018","createdAt":"2020年08月06日16时42分05秒","updatedAt":"2020年08月06日16时42分05秒","type":"安卓"}]
+response time: 1596779295256
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee2$ (E:\third\project\server\src\app\controllers\/recharge.js:21:22)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-07T13:48:27.913] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: POST
+request originalUrl:  /api/recharge/replenishment
+request client ip:  ::ffff:127.0.0.1
+request body: 
+[{"roleId":"321","roleName":"321","platform":null,"uid":"35f9b1fb76a749ada507c9bed5348852","pid":"1","channel":null,"deviceid":null,"isOK":"成功","isSend":"","serverId":"3213","price":"1000","tid":"12312312312312312312312312","createdAt":"2020年08月22日14时49分56秒","updatedAt":"2020年08月22日14时49分49秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"17771b6d40d944a1bfca5dab12f019b1","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"09791320200805145121000001","createdAt":"2020年08月05日14时51分21秒","updatedAt":"2020年08月05日14时51分21秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"01035920200805151025000001","createdAt":"2020年08月05日15时10分25秒","updatedAt":"2020年08月05日15时10分25秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"成功","isSend":"","serverId":"testserver1","price":"10000","tid":"03525220200805155301000002","createdAt":"2020年08月05日15时53分01秒","updatedAt":"2020年08月05日15时55分21秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":null,"uid":"7bef74791fb54495bc5c85fc4a8e9348","pid":"1","channel":null,"deviceid":null,"isOK":"未支付","isSend":"","serverId":"testserver1","price":"1","tid":"87416820200805163807000003","createdAt":"2020年08月05日16时38分07秒","updatedAt":"2020年08月05日16时38分07秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"55579120200806155216000001","createdAt":"2020年08月06日15时52分17秒","updatedAt":"2020年08月06日15时52分17秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"82416220200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"96767320200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"74188320200806155328000002","createdAt":"2020年08月06日15时53分28秒","updatedAt":"2020年08月06日15时53分28秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"79686420200806155329000005","createdAt":"2020年08月06日15时53分29秒","updatedAt":"2020年08月06日15时53分29秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"86105620200806155329000006","createdAt":"2020年08月06日15时53分29秒","updatedAt":"2020年08月06日15时53分29秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"26482220200806155329000006","createdAt":"2020年08月06日15时53分30秒","updatedAt":"2020年08月06日15时53分30秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"74030020200806155331000008","createdAt":"2020年08月06日15时53分31秒","updatedAt":"2020年08月06日15时53分31秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"87161320200806155332000009","createdAt":"2020年08月06日15时53分32秒","updatedAt":"2020年08月06日15时53分32秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"49265720200806155704000010","createdAt":"2020年08月06日15时57分04秒","updatedAt":"2020年08月06日15时57分04秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"12560720200806162246000011","createdAt":"2020年08月06日16时22分46秒","updatedAt":"2020年08月06日16时22分46秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"55080720200806162655000012","createdAt":"2020年08月06日16时26分55秒","updatedAt":"2020年08月06日16时26分55秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"90555120200806162935000013","createdAt":"2020年08月06日16时29分35秒","updatedAt":"2020年08月06日16时29分35秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"38555420200806163651000014","createdAt":"2020年08月06日16时36分52秒","updatedAt":"2020年08月06日16时36分52秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"22904220200806163922000015","createdAt":"2020年08月06日16时39分22秒","updatedAt":"2020年08月06日16时39分22秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"94065920200806164039000016","createdAt":"2020年08月06日16时40分40秒","updatedAt":"2020年08月06日16时40分40秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"89800720200806164156000017","createdAt":"2020年08月06日16时41分56秒","updatedAt":"2020年08月06日16时41分56秒","type":"安卓"},{"roleId":"testroleid","roleName":"testrolename","platform":"android","uid":"1b6a64dd917a4cf6aa3650489a656e78","pid":"1","channel":"fancyguo","deviceid":"86aedde8b7c28f57","isOK":"未支付","isSend":"","serverId":"testserver1","price":"10000","tid":"59872220200806164204000018","createdAt":"2020年08月06日16时42分05秒","updatedAt":"2020年08月06日16时42分05秒","type":"安卓"}]
+response time: 1596779307913
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee2$ (E:\third\project\server\src\app\controllers\/recharge.js:21:22)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-07T14:04:58.601] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/announcement/weights?stime=2020-08-04T16:00:00.000Z&etime=2020-08-18T16:00:00.000Z&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&client[]=%E4%B9%85%E6%B8%B8&client[]=%E5%B0%8F%E7%B1%B3&client[]=%E8%85%BE%E8%AE%AF&servername[]=0
+request client ip:  ::ffff:127.0.0.1
+request query:  {"stime":"2020-08-04T16:00:00.000Z","etime":"2020-08-18T16:00:00.000Z","plaform":"不限制","client[]":["久游","小米","腾讯"],"servername[]":"0","client":["久游","小米","腾讯"],"servername":"0","gameid":"1"}
+response time: 1596780298601
+err name: SequelizeDatabaseError
+err message: invalid input syntax for type smallint: "不限制"
+err stack: SequelizeDatabaseError: invalid input syntax for type smallint: "不限制"
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-07T14:10:33.280] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/announcement/weights?stime=2020-08-03T16:00:00.000Z&etime=2020-08-04T16:00:00.000Z&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&client[]=%E4%B9%85%E6%B8%B8&client[]=%E5%B0%8F%E7%B1%B3&client[]=%E8%85%BE%E8%AE%AF&servername[]=0
+request client ip:  ::ffff:127.0.0.1
+request query:  {"stime":"2020-08-03T16:00:00.000Z","etime":"2020-08-04T16:00:00.000Z","plaform":"不限制","client[]":["久游","小米","腾讯"],"servername[]":"0","client":["久游","小米","腾讯"],"servername":"0","gameid":"1"}
+response time: 1596780633280
+err name: SequelizeDatabaseError
+err message: invalid input syntax for type smallint: "不限制"
+err stack: SequelizeDatabaseError: invalid input syntax for type smallint: "不限制"
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-07T14:11:46.520] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: GET
+request originalUrl:  /api/announcement/weights?stime=2020-08-13+00:00:00&etime=2020-08-05+00:00:00&plaform=%E5%AE%89%E5%8D%93&client[]=%E4%B9%85%E6%B8%B8&client[]=%E5%B0%8F%E7%B1%B3&servername[]=0
+request client ip:  ::ffff:127.0.0.1
+request query:  {"stime":"2020-08-13 00:00:00","etime":"2020-08-05 00:00:00","plaform":"安卓","client[]":["久游","小米"],"servername[]":"0","client":["久游","小米"],"servername":"0","gameid":"1"}
+response time: 1596780706519
+err name: SequelizeDatabaseError
+err message: invalid input syntax for type smallint: "安卓"
+err stack: SequelizeDatabaseError: invalid input syntax for type smallint: "安卓"
+    at Query.formatError (E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:366:16)
+    at E:\third\project\server\node_modules\sequelize\lib\dialects\postgres\query.js:72:18
+    at tryCatcher (E:\third\project\server\node_modules\bluebird\js\release\util.js:16:23)
+    at Promise._settlePromiseFromHandler (E:\third\project\server\node_modules\bluebird\js\release\promise.js:547:31)
+    at Promise._settlePromise (E:\third\project\server\node_modules\bluebird\js\release\promise.js:604:18)
+    at Promise._settlePromise0 (E:\third\project\server\node_modules\bluebird\js\release\promise.js:649:10)
+    at Promise._settlePromises (E:\third\project\server\node_modules\bluebird\js\release\promise.js:725:18)
+    at _drainQueueStep (E:\third\project\server\node_modules\bluebird\js\release\async.js:93:12)
+    at _drainQueue (E:\third\project\server\node_modules\bluebird\js\release\async.js:86:9)
+    at Async._drainQueues (E:\third\project\server\node_modules\bluebird\js\release\async.js:102:5)
+    at Immediate.Async.drainQueues [as _onImmediate] (E:\third\project\server\node_modules\bluebird\js\release\async.js:15:14)
+    at processImmediate (internal/timers.js:456:21)
+*************** error log end ***************
+
+[2020-08-07T17:39:32.884] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793172884
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (E:\third\project\server\src\utils\/Cp.js:152:25)
+    at self.callback (E:\third\project\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.init (E:\third\project\server\node_modules\request\request.js:273:17)
+    at new Request (E:\third\project\server\node_modules\request\request.js:127:8)
+    at request (E:\third\project\server\node_modules\request\index.js:53:10)
+    at E:\third\project\server\src\utils\/Cp.js:151:4
+    at new Promise (<anonymous>)
+    at _callee9$ (E:\third\project\server\src\utils\/Cp.js:150:10)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T17:47:26.687] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=38&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E5%85%AC%E5%91%8A%E6%9D%BF&end_time=&start_time=&anno_status=%E5%BE%85%E7%94%A8&title=1&client[]=%E5%B0%8F%E7%B1%B3&client[]=%E4%B9%85%E6%B8%B8&plaform=%E5%AE%89%E5%8D%93&game_id=1&text=1&img_url=E:%5Cthird%5Cproject%5Cserver%5Csrc%5Cimages%5C11596785107690%2B1.txt&link=1&bulletinid=11596785107690&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793646686
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (E:\third\project\server\src\utils\/Cp.js:152:25)
+    at self.callback (E:\third\project\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.init (E:\third\project\server\node_modules\request\request.js:273:17)
+    at new Request (E:\third\project\server\node_modules\request\request.js:127:8)
+    at request (E:\third\project\server\node_modules\request\index.js:53:10)
+    at E:\third\project\server\src\utils\/Cp.js:151:4
+    at new Promise (<anonymous>)
+    at _callee9$ (E:\third\project\server\src\utils\/Cp.js:150:10)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T17:50:33.548] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793833548
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at Request._callback (E:\third\project\server\src\utils\/Cp.js:152:25)
+    at self.callback (E:\third\project\server\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:315:20)
+    at Request.init (E:\third\project\server\node_modules\request\request.js:273:17)
+    at new Request (E:\third\project\server\node_modules\request\request.js:127:8)
+    at request (E:\third\project\server\node_modules\request\index.js:53:10)
+    at E:\third\project\server\src\utils\/Cp.js:151:4
+    at new Promise (<anonymous>)
+    at _callee9$ (E:\third\project\server\src\utils\/Cp.js:150:10)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T17:51:12.257] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793872256
+err name: TypeError
+err message: Cannot read property 'code' of undefined
+err stack: TypeError: Cannot read property 'code' of undefined
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:112:8)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T17:52:01.663] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793921662
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee5$ (E:\third\project\server\src\app\service\gm-announcement.js:426:50)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T17:52:19.171] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793939171
+err name: TypeError
+err message: Cannot read property 'code' of undefined
+err stack: TypeError: Cannot read property 'code' of undefined
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:112:8)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-07T17:53:13.332] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596793993331
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:113:26)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+*************** error log end ***************
+
+[2020-08-07T18:16:50.304] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596795410304
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:114:26)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T18:17:39.005] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596795459005
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:114:26)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T18:19:19.102] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596795559101
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:114:26)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
+[2020-08-07T18:19:53.773] [ERROR] errorLogger - 
+*************** error log start ***************
+request method: PUT
+request originalUrl:  /api/announcement/update?id=36&status=1&create_user_id=1&create_time=2020-08-06T16:00:00.000Z&update_time=2020-08-06T16:00:00.000Z&type=%E8%B7%91%E9%A9%AC%E7%81%AF&end_time=2020-08-28+00:00:00&start_time=2020-08-12+00:00:00&anno_status=%E5%BE%85%E7%94%A8&client=&plaform=%E4%B8%8D%E9%99%90%E5%88%B6&game_id=1&text=null&time_interval=1&weights=2&bulletinid=11596783853245&servername=&changeshow=true&stopshow=true
+request client ip:  ::ffff:127.0.0.1
+request body: 
+{"gameid":"1"}
+response time: 1596795593773
+err name: SyntaxError
+err message: Unexpected token u in JSON at position 0
+err stack: SyntaxError: Unexpected token u in JSON at position 0
+    at JSON.parse (<anonymous>)
+    at _callee5$ (E:\third\project\server\src\app\service\/gm-announcement.js:114:26)
+    at tryCatch (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:45:40)
+    at Generator.invoke [as _invoke] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:281:22)
+    at Generator.prototype.<computed> [as next] (E:\third\project\server\node_modules\regenerator-runtime\runtime.js:106:21)
+    at asyncGeneratorStep (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (E:\third\project\server\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+*************** error log end ***************
+
